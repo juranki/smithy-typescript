@@ -115,6 +115,19 @@
                     "experimentalIdentityAndAuth": true
                 }
             }
+        },
+        "mqtt": {
+            "plugins": {
+                "typescript-mqtt-client-codegen": {
+                    "service": "test.model#TestService",
+                    "package": "mqtt-test",
+                    "packageVersion": "0.0.1",
+                    "packageJson": {
+                        "license": "Apache-2.0",
+                        "private": true
+                    }
+                }
+            }
         }
     },
     "plugins": {
